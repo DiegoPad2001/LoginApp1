@@ -1,7 +1,6 @@
 .contenedor {
     background-color: #f5fbff;
   }
-  // Figuras
   .elipse1 {
     position: fixed;
     z-index: 0;
@@ -74,21 +73,16 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    // top: 10%;
-    // display: flex;
-    // align-items: center;
     width: 40%;
     height: fit-content;
     border-radius: 40px;
     box-shadow: 0px 23px 44px rgba(176, 183, 195, 0.14);
   }
   
-  //Estilos del primer formulario
   .form1 img {
     width: 200.52px;
     height: 40px;
     margin-top: 5%;
-    // margin-bottom: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -139,13 +133,10 @@
   .form1 .registrar {
     margin-top: 5%;
     text-align: center !important;
-    // margin-top: 20px;
-    // margin-left: 26%;
+
   }
   
-  //Empieza el formulario de inicoo de sesion de colaborador
   .form2 h2 {
-    //   height: 3%;
     width: 310px;
     margin-top: 5%;
     display: block;
@@ -155,9 +146,7 @@
   }
   
   .form2 .text-muted {
-    //   margin-top: 1%;
     text-align: center;
-    //   margin-bottom: 8%;
   }
   
   .form2 .colaborador {
@@ -176,8 +165,6 @@
   }
   
   .form2 .contrase {
-    //   margin-top: 10%;
-    // margin-bottom: 10px;
     text-align: center;
   }
   
@@ -202,12 +189,10 @@
     display: block;
   }
   
-  //Medidas para moviles
   @media (min-width: 300px) and (max-width: 480px) {
     .contenedor {
       background-color: #ffffff;
     }
-    // Figuras
     .elipse1 {
       position: fixed;
       z-index: 1;
@@ -267,16 +252,13 @@
       right: 0;
       bottom: 0;
       margin: auto;
-      // top: 10%;
-      // display: flex;
-      // align-items: center;
+
       width: 100%;
       height: 80%;
       border-radius: 40px;
       box-shadow: 0px 23px 44px rgb(255, 255, 255);
     }
   
-    //Estilos del primer formulario
     .form1 img {
       width: 200.52px;
       height: 40px;
@@ -325,11 +307,9 @@
     .form1 .registrar {
       margin-top: 10%;
       text-align: center !important;
-      // margin-top: 20px;
-      // margin-left: 26%;
+
     }
   
-    //Empieza el formulario de inicoo de sesion de colaborador
     .form2 h2 {
       height: 38px;
       width: 310px;
@@ -363,7 +343,6 @@
   
     .form2 .contrase {
       margin-top: 10%;
-      // margin-bottom: 10px;
       text-align: center;
     }
   
@@ -389,12 +368,10 @@
     }
   }
   
-  // Medidas para tablet
   @media (min-width: 480px) and (max-width: 769px) {
     .contenedor {
       background-color: #f5fbff;
     }
-    // Figuras
     .elipse1 {
       position: fixed;
       z-index: 0;
@@ -454,21 +431,16 @@
       right: 0;
       bottom: 0;
       margin: auto;
-      // top: 10%;
-      // display: flex;
-      // align-items: center;
       width: 60%;
       height: 85%;
       border-radius: 40px;
       box-shadow: 0px 23px 44px rgba(176, 183, 195, 0.14);
     }
   
-    //Estilos del primer formulario
     .form1 img {
       width: 200.52px;
       height: 40px;
       margin-top: 10%;
-      // margin-bottom: 30%;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -494,7 +466,6 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
-      // margin-top: 10%;
       border-radius: 20px;
       width: 80%;
       height: 61px;
@@ -514,11 +485,9 @@
     .form1 .registrar {
       margin-top: 5%;
       text-align: center !important;
-      // margin-top: 20px;
-      // margin-left: 26%;
+
     }
   
-    //Empieza el formulario de inicoo de sesion de colaborador
     .form2 h2 {
       height: 38px;
       width: 300px;
@@ -532,7 +501,6 @@
     .form2 .text-muted {
       margin-top: 15%;
       text-align: center;
-      // margin-bottom: 8%;
     }
   
     .form2 .colaborador {
@@ -551,8 +519,7 @@
     }
   
     .form2 .contrase {
-      // margin-top: 10%;
-      // margin-bottom: 10px;
+
       text-align: center;
     }
   
@@ -578,12 +545,10 @@
     }
   }
   
-  //Medidas para tablets mas grandes
   @media (min-width: 769px) and (max-width: 1024px) {
     .contenedor {
       background-color: #f5fbff;
     }
-    // Figuras
     .elipse1 {
       position: fixed;
       z-index: 0;
@@ -643,21 +608,16 @@
       right: 0;
       bottom: 0;
       margin: auto;
-      // top: 10%;
-      // display: flex;
-      // align-items: center;
       width: 60%;
       height: 85%;
       border-radius: 40px;
       box-shadow: 0px 23px 44px rgba(176, 183, 195, 0.14);
     }
   
-    //Estilos del primer formulario
     .form1 img {
       width: 270.52px;
       height: 53px;
       margin-top: 10%;
-      // margin-bottom: 30%;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -683,7 +643,6 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
-      // margin-top: 10%;
       border-radius: 20px;
       width: 80%;
       height: 61px;
@@ -703,11 +662,9 @@
     .form1 .registrar {
       margin-top: 5%;
       text-align: center !important;
-      // margin-top: 20px;
-      // margin-left: 26%;
+
     }
   
-    //Empieza el formulario de inicoo de sesion de colaborador
     .form2 h2 {
       height: 5%;
       width: 300px;
@@ -719,9 +676,7 @@
     }
   
     .form2 .text-muted {
-      // margin-top: 5%;
       text-align: center;
-      // margin-bottom: 8%;
     }
   
     .form2 .colaborador {
@@ -740,8 +695,7 @@
     }
   
     .form2 .contrase {
-      // margin-top: 10%;
-      // margin-bottom: 10px;
+
       text-align: center;
     }
   
