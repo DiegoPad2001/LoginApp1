@@ -5,16 +5,16 @@ import { MenuComponent } from './pages/menu/menu.component';
 
 const routes: Routes = [
   {
-    path:'home',
+    path:'./home',
     component: HomeComponent
   },
   {
-    path:'menu',
+    path:'./menu',
     component: MenuComponent
   },
   {
     path: '**',
-    redirectTo: 'home'
+    redirectTo: './home'
   }
 ];
 
