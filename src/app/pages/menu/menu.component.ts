@@ -92,7 +92,7 @@ export class MenuComponent implements OnInit, OnDestroy {
 
 
   setMyCookie(): void {
-    this.cookieService.setCookie('myCookie', '123', 2);
+    this.cookieService.setCookie('myCookie', Math.floor((Math.random() * 100) + 1).toString(), 2);
   }
 
   getMyCookie(): void {

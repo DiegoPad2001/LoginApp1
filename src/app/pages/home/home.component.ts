@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit {
 
 
   setMyCookie(): void {
-    this.cookieService.setCookie('myCookie', '150', 7);
+    this.cookieService.setCookie('myCookie', Math.floor((Math.random() * 100) + 1).toString(), 2);
   }
 
 
